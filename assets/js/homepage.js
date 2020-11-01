@@ -1,5 +1,5 @@
 const getUserRepos = () => {
-    console.log("Function was called");
+    fetch("https://api.github.com/users/octocat/repos");
 }
 
 getUserRepos();
